@@ -1,0 +1,16 @@
+{
+  "name": "ai-crawler-access-checker",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Bulk AI Crawler Access Checker \u2014 robots.txt AI rules, llms.txt, ai.txt, RSL + live User-Agent response test, across many domains.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.6"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

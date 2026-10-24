@@ -1,0 +1,12 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Bulk AI Crawler Access Checker output",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "AI crawler access results",
+      "description": "One row per domain: robots.txt AI-bot policy, live User-Agent response test, llms.txt / ai.txt / RSL, and the allowed-but-refused count.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?clean=true"
+    }
+  }
+}
