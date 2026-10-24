@@ -1,0 +1,15 @@
+{
+  "title": "Bulk AI Crawler Access Checker input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "domains": {
+      "title": "Domains",
+      "type": "array",
+      "description": "One domain per line (e.g. example.com). Paste or upload a list.",
+      "editor": "stringList",
+      "prefill": ["example.com"]
+    }
+  },
+  "required": ["domains"]
+}

@@ -1,0 +1,34 @@
+{
+  "actorSpecification": 1,
+  "views": {
+    "overview": {
+      "title": "AI crawler access",
+      "description": "One row per domain: robots policy state, live browser baseline, llms.txt / ai.txt / RSL, and how many allowed AI bots were refused anyway.",
+      "transformation": {
+        "fields": [
+          "domain",
+          "ok",
+          "robots_state",
+          "home_baseline",
+          "allowed_but_refused_count",
+          "llms_txt",
+          "ai_txt",
+          "rsl"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "domain": { "label": "Domain", "format": "text" },
+          "ok": { "label": "Checked", "format": "boolean" },
+          "robots_state": { "label": "robots.txt", "format": "text" },
+          "home_baseline": { "label": "Home (browser)", "format": "text" },
+          "allowed_but_refused_count": { "label": "Allowed but refused", "format": "number" },
+          "llms_txt": { "label": "llms.txt", "format": "text" },
+          "ai_txt": { "label": "ai.txt", "format": "text" },
+          "rsl": { "label": "RSL / usage terms", "format": "text" }
+        }
+      }
+    }
+  }
+}

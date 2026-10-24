@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Apify local state
+storage/
+apify_storage/
+.apify/
+
+# Build / packaging artifacts
+*.zip
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lockfiles (builds resolve from package.json; omit to keep the repo light)
+package-lock.json
+
+# Env / secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+secrets*.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
