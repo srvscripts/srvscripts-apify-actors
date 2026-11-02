@@ -31,7 +31,7 @@ input, output and the detection baseline.
 
 ## Building
 
-Each Actor is Node (ESM) on the `apify/actor-node:20` base image.
+Each Actor is Node (ESM) on the `apify/actor-node:24` base image (Node.js 24 LTS; Apify supports 22, 24 and 26). Tested locally on Node v24.22.2 with apify 3.7.2.
 
 ```bash
 cd hosting-php-cve-auditor
